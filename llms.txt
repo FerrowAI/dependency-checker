@@ -1,7 +1,7 @@
 # dependency-checker
 > Offline package.json analyzer for loose versions, duplicates, and invalid semver
 
-Offline static analyzer for `package.json`. Detects loose version ranges (`*`, `latest`), duplicate dependencies, invalid semver, non-npm specifiers (git/file/http), and engine misconfigurations. Works without network. ```typescript import { DependencyChecker } from 'dependency-checker';
+Offline static analyzer for `package.json`. Detects loose version ranges (`*`, `latest`), duplicate dependencies, invalid semver, non-npm specifiers (git/file/http), and engine misconfigurations. Works without network.
 
 ## API
 - `Issue`
