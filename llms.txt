@@ -1,0 +1,14 @@
+# dependency-checker
+> Offline package.json analyzer for loose versions, duplicates, and invalid semver
+
+Offline static analyzer for `package.json`. Detects loose version ranges (`*`, `latest`), duplicate dependencies, invalid semver, non-npm specifiers (git/file/http), and engine misconfigurations. Works without network. ```typescript import { DependencyChecker } from 'dependency-checker';
+
+## API
+- `Issue`
+- `AnalysisResult`
+- `DependencyChecker`
+
+## Install
+Each library is a standalone GitHub repo under github.com/Ruzylo-cloud.
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
