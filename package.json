@@ -1,1 +1,22 @@
-{"name":"dependency-checker","version":"1.0.0","description":"Offline package.json analyzer for loose versions, duplicates, and invalid semver","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc"},"keywords":["dependencies","semver","validation","package-json","security"],"author":"Ruzylo-cloud","license":"MIT","devDependencies":{"typescript":"^5.0.0"}}
+{
+  "name": "@ferrow/dependency-checker",
+  "version": "1.0.0",
+  "description": "Offline package.json analyzer for loose versions, duplicates, and invalid semver",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "dependencies",
+    "semver",
+    "validation",
+    "package-json",
+    "security"
+  ],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

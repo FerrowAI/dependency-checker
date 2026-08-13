@@ -1,4 +1,8 @@
 # dependency-checker
+
+```sh
+npm install @ferrow/dependency-checker
+```
 ![CI](https://github.com/FerrowAI/dependency-checker/actions/workflows/ci.yml/badge.svg)
 
 Offline static analyzer for `package.json`. Detects loose version ranges (`*`, `latest`), duplicate dependencies, invalid semver, non-npm specifiers (git/file/http), and engine misconfigurations. Works without network.
